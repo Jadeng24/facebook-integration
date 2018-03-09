@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.loginBtn {
+  font-size: 14pt;
+  padding: 20px 40px;
+  border-radius: 5px;
+  margin: 10px;
+  background: linear-gradient(0deg, #3b5998 20%,#8b9dc3 90%,#dfe3ee);
+  border: solid 2px #3b5998;
+  box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+  letter-spacing: 2px;
+  outline: none;
+}
+.loginBtn:hover {
+  opacity: .95;
+  cursor: pointer;
+  transition: .2s;
+
+}
+.loginBtn:active {
+  box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.2);
+  transform: scale(.99);
+  transition: .2s;
+}
